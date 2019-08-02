@@ -4,8 +4,7 @@
     "pages/logs/logs",
     "pages/module/demo",
     "pages/module/navigator",
-    "pages/module/redirect",
-    "pages/startpage/welcome"
+    "pages/module/redirect"
   ],
   "window": {
     "backgroundTextStyle": "light",

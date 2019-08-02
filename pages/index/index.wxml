@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<view id="container_main" class="container">
 
   <view id="search_bar">
     <ul>
@@ -24,7 +24,9 @@
   </view>
 
   <view id="main_bar">
-    <image src="../images/products.jpg" style="border:0px; width: 100%; height: 100%; "></image>
+    <view id="main_bar_body">
+      <image src="../images/products.jpg" style="border:0px; width: 100%; height: 100%; "></image>
+    </view>
   </view>
 
   <view id="navigator_bar">

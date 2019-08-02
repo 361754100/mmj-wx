@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/startpage/welcome",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/module/demo",
+    "pages/module/navigator",
+    "pages/module/redirect"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "麦唛家-MMJ",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,194 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+
+.controls {
+  position: relative;
+  top: 50%;
+  height: 50px;
+  margin-top: -25px;
+  display: flex;
+}
+.play,.pause,.time {
+  flex: 1;
+  height: 100%;
+}
+.time {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  line-height: 50px;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  margin: 5px auto;
+}
+
+
+/**自定义页面样式**/
+/****************顶部搜索栏 begin****************/
+#search_bar {
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  width: 100%;
+  height: 38px;
+  top: 0px;
+  margin-top: 0px;
+  background: RGB(227, 48, 43);
+}
+
+#search_bar ul {
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+}
+
+#search_bar ul li{
+  display: block;
+  text-align: center;
+  float: left;
+}
+
+#search_bar ul li .iconfont{
+  display: block;
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding-top: 2px;
+  font-size: 18px;
+  color: white;
+}
+
+#search_bar ul li .txt_title{
+  display: block;
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding-top: 1px;
+  font-size: 10px;
+  color: white;
+}
+
+.weui-search-bar__form {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  flex: auto;
+  border-radius: 20px;
+  background: #fff;
+  border: 1rpx solid #e6e6ea;
+}
+
+.weui-icon-search_in-box {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.weui-search-bar__form {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  flex: auto;
+  border-radius: 5px;
+  background: #fff;
+  border: 1rpx solid #e6e6ea;
+}
+.weui-search-bar__box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.weui-search-bar__input {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+/****************顶部搜索栏 end****************/
+
+/****************中部主体 begin****************/
+#main_bar {
+  z-index: -1;
+  top: 38px;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+/****************中部主体 end****************/
+
+/****************底部导航栏 begin****************/
+#navigator_bar {
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  width: 100%;
+  height: 60px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+  border-top: 1px solid RGB(195, 195, 195);
+}
+
+#navigator_bar_ul {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+#navigator_bar_ul li{
+  display: block;
+  text-align: center;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+#navigator_bar_ul li .iconfont{
+  display: block;
+  text-align: center;
+  float: left;
+  width: 100%;
+  height: 30px;
+  line-height: 28px;
+  padding-top: 0px;
+  font-size: 18px;
+}
+
+#navigator_bar_ul li .txt_title{
+  display: block;
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding-top: 0px;
+  font-size: 10px;
+}
+/****************底部导航栏 end****************/

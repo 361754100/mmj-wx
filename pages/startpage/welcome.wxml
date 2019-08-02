@@ -1,0 +1,4 @@
+<!--pages/startpage/welcome.wxml-->
+<view class="container">
+  <image style="margin-top: 30%; width:220px; height:220px;" src="../images/mmj_logo_mini.png"></image>
+</view>

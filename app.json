@@ -1,11 +1,11 @@
 {
   "pages": [
-    "pages/startpage/welcome",
     "pages/index/index",
     "pages/logs/logs",
     "pages/module/demo",
     "pages/module/navigator",
-    "pages/module/redirect"
+    "pages/module/redirect",
+    "pages/startpage/welcome"
   ],
   "window": {
     "backgroundTextStyle": "light",
